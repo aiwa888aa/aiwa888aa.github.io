@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<style>
+		h1 {text-align: center;}
+		p {text-align: center;}
+		div {text-align: center;}
+		.card {
+		  /* Add shadows to create the "card" effect */
+		  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		  transition: 0.3s;
+		}
+
+		/* On mouse-over, add a deeper shadow */
+		.card:hover {
+		  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+
+		/* Add some padding inside the card container */
+		.container {
+		  padding: 2px 16px;
+		}
+		
+		ul:before{
+			content:attr(aria-label);
+			font-size:120%;
+			font-weight:bold;
+			margin-left:-15px;
+		}
+	</style>
     <meta charset="utf-8">
     <title>你好，GitHub</title>
   </head>
   <body>
-    <h1>覺得厲害</h1>
+    <h1>隱私權政策</h1>
+	<div class="card">
+	  <div class="container">
+		<div>「AutoPost」是由「信諾科技」（下稱我們）所經營之APP(下稱本APP)各項服務與資訊。</div>
+		<div>以下是我們的隱私權保護政策，幫助您瞭解本APP所蒐集的個人資料之運用及保護方式。</div>
+		<div>
+			<ul aria-label="一、隱私權保護政策的適用範圍" style="text-align:left;"> 
+				<li>（1）請您在於使用本APP服務前，確認您已審閱並同意本隱私權政策所列全部條款，若您不同意全部或部份者，則請勿使用本APP服務。</li>
+				<li>（2）隱私權保護政策內容，包括我們如何處理您在使用本APP服務時蒐集到的個人識別資料。</li>
+				<li>（3）隱私權保護政策不適用於本APP以外的相關連結網站，亦不適用於非我們所委託或參與管理之人員。</li>
+			</ul>
+		</div>
+		<div>
+			<ul aria-label="二、個人資料的蒐集及使用" style="text-align:left;"> 
+				<li>（1）本APP並不會蒐集任何有關個人的身份資料。</li>
+			</ul>
+		</div>
+		<div>
+			<ul aria-label="三、對外的相關連結" style="text-align:left;"> 
+				<li>本APP上有可能包含其他合作網站或網頁連結，該網站或網頁也有可能會蒐集您的個人資料，不論其內容或隱私權政策為何，皆與本APP 無關，您應自行參考該連結網站中的隱私權保護政策，我們不負任何連帶責任。</li>
+			</ul>
+		</div>
+		<div>
+			<ul aria-label="四、未成年人保護" style="text-align:left;"> 
+				<li>未成年人於註冊或使用本服務而同意本公司蒐集、利用其個人資訊時，應按其年齡由其法定代理人代為或在法定代理人之同意下為之。</li>
+			</ul>
+		</div>
+		<div>
+			<ul aria-label="五、隱私權政策的修訂" style="text-align:left;"> 
+				<li>我們將因應需求擁有隨時修改本隱私權保護政策的權利，當我們做出修改時，會於本APP公告，且自公告日起生效，不再另行通知。</li>
+			</ul>
+		</div>
+	  </div>
+	</div>
   </body>
 </html>
